@@ -53,17 +53,35 @@ a:hover {
     justify-content: center;
 }
 
-.search-bar {
+.search {
     display: flex;
     justify-content: center;
 }
 
-#search-bar {
-    border-style:solid;
+.search-bar {
+   display:flex;
+   justify-content: space-between;
+   align-items:center; 
+   border-style:solid;
     border-color: lightgray;
     border-radius: 25px;
-    max-width: 1000em;
-    margin: auto;
+    width: 500px;
+    height: 50px;
+}
+
+#search-bar {
+    width: 450px;
+    height: 20px;
+    font-size: 20px;
+    border-style:none;
+}
+
+#magnify {
+    margin-left: 20px;
+}
+
+input:focus {
+    outline: none;
 }
 
 .search-buttons {
@@ -73,7 +91,8 @@ a:hover {
 
 .search-buttons button {
     background-color: rgb(243, 243, 243);
-    border-style: none;
+    border-style: solid;
+    border-color: white;
     border-radius: 10%;
     margin-left: 15px;
     margin-right: 15px;
