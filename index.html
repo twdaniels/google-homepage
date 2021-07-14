@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,39 +10,54 @@
       rel="stylesheet">
         <link rel="stylesheet" href="CSS/index.css" type="text/css">
     </head>
+<div class="site">
     <header>
-        <nav>
-            <a href="#">About</a>
-            <a href="#">Store</a>
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-            <a class="material-icons">
-                apps
-            </a>
-            <button class="sign-in">Sign In</button>
-        </nav>
-    </header>
-    <br>
-    <body>
-       <div>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-            <div>
-                <form action="#">
-                    <input type="search" name="searchbar" id="searchbar"><br>
-                    <button type="submit">Google Search</button>
-                    <button type="submit">I'm Feeling Lucky</button>
-                </form>
+        <div class="top-nav">
+            <div class="top-nav-left">
+                <a href="#">About</a>
+                <a href="#">Store</a>
+            </div>
+            <div class="top-nav-right">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <div class="material-icons">apps</div>
+                <button class="sign-in">Sign In</button>
             </div>
         </div>
-    </body>
+        <br>
+        <br>
+        <br>
+    </header>
+    <div class="main">
+        <div class="image">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        </div>
+        <br>
+        <form action="#">
+            <div class="search-bar">
+                <input type="search" name="search-bar" id="search-bar">                  
+            </div>     
+            <br>
+            <div class="search-buttons">
+                <button type="submit">Google Search</button>
+                <button type="submit">I'm Feeling Lucky</button>
+            </div>
+        </form>
+    <br>
+    </div>
     <footer>
-        <nav>
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">How Search works</a>
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Settings</a>
-        </nav>
+        <div class="bottom-nav">
+            <div class="bottom-nav-left">
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search works</a>
+            </div>
+            <div class="bottom-nav-right">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
+        </div>
     </footer>
+</div>
 </html>
